@@ -1,7 +1,5 @@
 # investment-calculator
 
-
-
 ## Table of Contents
 - [Description](#description)
 - [Links](#links)
@@ -16,4 +14,12 @@ This is a simple investment calculator that allows you to calculate the future v
 ## Todos
 - [ ] Depley server
 
+## Example of a JSON from the client
 
+{
+   "years_ago": 10,
+   "ticket": "SCHD"
+   "initial_investment": 1000,
+   "monthly_contribution": 1000,
+   "dividend_reinvestment": True
+}
